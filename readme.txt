@@ -1,11 +1,6 @@
 CHAT:
 -This is a chat application that can be used for local usage in a small network. It creates a local server and people connected to the network can do a group chat. 
 
-Implementation Detail:
-
-1. The index page was designed with the help of Html and the file was named as index.php
-2. In the next step   
-
 Tools:
 -Sublime text: Text Editor to write code for the website.
 -PhpmYADMIN: GUI based Database interface.
@@ -36,3 +31,17 @@ folder and sub files description:-
 	7. logout.php: It contain codes the enable use to exit the chat room.
 	8. sess.php: It contain the detail about the user currently active at a particular time.  
 	9. signup: It contain the codes that help user to register on the website.
+
+Implementation Detail:
+
+-I have used html,css,php and mysqladmin along with Amazon web services.
+-there are total 9 php files and 1 database name mydatabase having two table posts and signup.
+-posts has 4 columns they are id, msg, name, date.
+-signup has 3 columns they are uid, name, email, password.
+-The database was created on phpmyadmin.
+-The private cloud that was used to deploy application is AMAZON WEB SERVICES.
+-The ec2 instance was created and apache2, php and mysql were installed with the help of following commands:-
+	-sudo apt-get install apache2
+	-sudo apt-get install php7.0
+	-sudo apt-get install mysql-server mysql-client
+-At last the database was connected by enter userid and password in dbh.php file.
