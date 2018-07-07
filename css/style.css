@@ -1,0 +1,47 @@
+body {
+	background-image: url("pic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#main{
+	height: 400px;
+	background-color: whitesmoke;
+	margin-top: 100px;
+	margin-left: 500px;
+	width: 400px;
+}
+#info{
+	margin-left: 500px;
+	margin-left: 20px;
+	padding-top: 2px;
+
+}
+
+
+input[type=text]{
+	
+	width: 260px;
+	box-sizing: 100px;
+	border: 2px solid black;
+	
+}
+
+input[type=password]{
+	
+	width: 260px;
+	box-sizing: 100px;
+	border: 2px solid black;
+	
+}
+
+input[type=email]{
+	
+	width: 260px;
+	box-sizing: 100px;
+	border: 2px solid black;
+	
+}
+
+in

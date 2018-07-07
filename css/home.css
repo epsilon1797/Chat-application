@@ -1,0 +1,38 @@
+body {
+	background-image: url("pic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#main{
+	
+    height: 400px;
+	background-color: whitesmoke;
+	margin-top: 100px;
+	margin-left: 500px;
+	width: 400px;
+	
+
+}
+
+
+.output{
+	border-left: 100px;
+	background-color: whitesmoke;
+	box-shadow: 0px 1px 1px #000;
+	height: 250px;
+	overflow: scroll;
+}
+
+input[type=submit]{
+	width: 100px;
+	box-sizing: 2px;
+	border: 4px;
+	border-radius: 4px;
+}
+
+textarea{
+	background-color: whitesmoke;
+	width: 300px;
+}
